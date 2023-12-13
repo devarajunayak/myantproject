@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width= , initial-scale=1.0">
+<title>Prakash Naidus</title>
+<!--CSS Links--><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!--JAVA Links--> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!--ICONS Links--> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<!--Home css Link--> <link rel="stylesheet" href="./Home.css">
+<style>
+body{
+background-color: black;
+}
+.container{
+display: flex;
+align-items: center;
+}
+img{
+max-width: 50%;
+height: auto;
+}
+.text{
+padding: 20px;
+}
+
+.testimonial-card .card-up {
+height: 50px;
+overflow: hidden;
+border-top-left-radius: 0.25rem;
+border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+width: 110px;
+margin-top: -60px;
+overflow: hidden;
+border: 3px solid #fff;
+border-radius: 50%;
+}
+</style>
+</head>
+<body>
+<!--Nav bar starts-->
+<nav style="position: -webkit-sticky; position: sticky; top: 0; z-index: 1000;" class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="container-fluid">
+<a style="font-size: 30px; padding: 2px; margin: 2px; " class="navbar-brand" href="#">&ensp;<i style="font-size: 25px;" class="bi bi-camera2"></i><b>PhotoFolio&ensp;</b></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a aria-current='page' class='nav-link active' href='/'>HOME</a>
+</li>
+&ensp;
+<li class="nav-item">
+<a class='nav-link' href='/about'>ABOUT</a>
+</li>&ensp;
+<li class="nav-item dropdown">
+<a aria-expanded='false' class='nav-link dropdown-toggle' data-bs-toggle='dropdown' href='/gallery' role='button'>
+GALLERY
+</a>
+<ul class="dropdown-menu">
+<li><a class='dropdown-item' href='/gallery'>Nature</a></li>
+<li><a class='dropdown-item' href='/gallery'>People</a></li>
+<li><a class='dropdown-item' href='/gallery'>Architecture</a></li>
+<li><a class='dropdown-item' href='/gallery'>Animals</a></li>
+<li><a class='dropdown-item' href='/gallery'>Sports</a></li>
+<li><a class='dropdown-item' href='/gallery'>Travel</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="#">MENU</a></li>
+</ul>
+</li>&ensp;
+<li class="nav-item">
+<a class='nav-link' href='/services'>SERVICES</a>
+</li>
+&ensp;
+<li class="nav-item">
+<a class='nav-link' href='/contact01'>CONTACT</a>
+</li>
+</ul>
+<form class="d-flex" role="search">
+<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+</div>
+</div>
+</nav>
+<!--Nav bar ends--> <br>
+
+<h1 style="color: white; text-align: center;">About</h1>
+<p style="color: white; text-align: center;">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo <br> odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis <br> veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+
+<p style="text-align: center;"><button style="padding: 10px 15px 10px 15px; color: white; background-color: green; border-radius: 6px 6px 6px 6px;"><a href='/contact01' style='text-decoration: none; color: white; font-style: bold;'>AVAILABLE FOR HERE</a></button></p>
+<br>
+<!--photos starts-->
+
+<div class="container"><img src="https://i.imgur.com/Gu9ZrEJ.jpg" width="420px" height="520px" alt="">
+<div class="text">
+<h3><p style="color: rgb(0, 128, 75);"><b>Professional Photographer From Andhra Pradesh</b></p></h3>
+<p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+<p style="color: white;">&gt;<b>Birthday:</b> 16 Mar 2001&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &gt;<b>Age:</b> 22</p>
+<p style="color: white;">&gt;<b>Website:</b> www.example.com&ensp;&ensp;&ensp;&ensp; &gt;<b>Qualification:</b> Btech</p>
+<p style="color: white;">&gt;<b>Phone:</b> 9182264663&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &gt;<b>Email:</b> prakashnaidu@gmail.com</p>
+<p style="color: white;">&gt;<b>City:</b> Kakinada&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &gt;<b>Freelance:</b> Available</p>
+<p style="color: white;">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam <br> sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius <br> omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
+</div>
+</div>
+<p style="color: white; margin: 50px 0px 0px 0px; text-align: center;">TESTIMONIALS <b style="color: rgb(0, 128, 75);">&#8765;&#8765;&#8765;&#8765;</b> <h3 style="text-align: center; color: white;"><b>What they are saying</b></h3></p>
+<br><br>
+<section>
+<div class="row d-flex justify-content-center">
+<div class="col-md-10 col-xl-8 text-center">
+</div>
+</div>
+<div>
+<div class="row text-center d-flex align-items-stretch">
+<div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+<div class="card testimonial-card">
+<div class="card-up" style="background-color: #9d789b;"></div>
+<div class="avatar mx-auto bg-white">
+<img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+class="rounded-circle img-fluid" />
+</div>
+<div class="card-body">
+<h4 class="mb-4">Maria Smantha</h4>
+<hr />
+<p class="dark-grey-text mt-4">
+<i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci,
+consectetur adipisicing elit.
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+<div class="card testimonial-card">
+<div class="card-up" style="background-color: #7a81a8;"></div>
+<div class="avatar mx-auto bg-white">
+<img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+class="rounded-circle img-fluid" />
+</div>
+<div class="card-body">
+<h4 class="mb-4">Lisa Cudrow</h4>
+<hr />
+<p class="dark-grey-text mt-4">
+<i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores
+repudi mollitia architecto.
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-0 d-flex align-items-stretch">
+<div class="card testimonial-card">
+<div class="card-up" style="background-color: #6d5b98;"></div>
+<div class="avatar mx-auto bg-white">
+<img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+class="rounded-circle img-fluid" />
+</div>
+<div class="card-body">
+<h4 class="mb-4">John Smith</h4>
+<hr />
+<p class="dark-grey-text mt-4">
+<i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab
+aliquam repellat rem unde ducimus.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<hr><br style="color: white;">
+<div style="color: white; font-style: bold; text-align: center;">© Copyright <b>PhotoFolio</b>. All Rights Reserved</div>
+<p style="color: white; font-style: bold; text-align: center;">Designed by <b style="color: green;">Prakash Naidu's</b></p>
+
+<br>
+</body>
+</html>
